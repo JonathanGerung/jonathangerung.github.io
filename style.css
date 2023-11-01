@@ -1,0 +1,153 @@
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: #F3EAE3;
+}
+
+.card {
+    height: 100%;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 450px; 
+}
+
+.parfum-pic img{
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    width: 260px;
+    height: 425px;
+}
+
+.description {
+    padding-right: 0px;
+    padding-left: 25px;
+    border-bottom-right-radius: 3%;
+    border-top-right-radius: 3%;
+    width: 230px;
+    height: 425px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.teks {
+    justify-content: center;
+}
+
+/* styling Description */
+.p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.p2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 27px;
+
+}
+
+.description .teks .p3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: Bolder;
+    color: #7D7D85;
+}
+
+
+.price p{
+    margin-top: 35px;
+    border: 10px;
+    padding: 3px;
+    display: inline-flex;
+    text-decoration: line-through;
+    font-size: 13px;
+    position: relative;
+    bottom: 5px;
+    color: #9FA0A9;
+
+}
+
+ span {             /* Span price class */
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    color:  #3D8168; 
+    text-decoration: none;
+}
+
+.button {
+    position: absolute;
+    bottom: 15px;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color:  #3D8168;
+    display: inline-flex;
+}
+
+.click {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    background-color:  hwb(120 25% 67%);
+    color: white;
+    height: 0px;
+    position: relative;
+    bottom: 5px;
+}
+
+svg {
+    margin-top: 16px;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 540px) {
+    
+    .container {
+        display: grid;
+        margin: auto;
+        top: 175px;
+        left: 0px;
+        position: relative;
+    }
+
+    .parfum-pic img {
+        border-top-left-radius: 3%;
+        border-top-right-radius: 3%;
+        border-bottom-left-radius: 0%;
+        height: 70%;
+    }
+
+    .description {
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 3%;
+        border-bottom-right-radius: 3%;
+        width: auto;
+        position: relative;
+        bottom: 50%;
+    }
+
+    .attribution {
+        margin-top: 25em;
+    }
+
+    .card {
+        position: relative;
+        bottom: 6em;
+    }
+}
